@@ -109,7 +109,7 @@ let g:Powerline#Themes#default#theme = Pl#Theme#Create(
 	\ ),
 	\
 	\ Pl#Theme#Buffer('nerdtree'
-		\ , ['raw.name', '%{Powerline#Functions#GetShortPath(4)}']
+		\ , ['static_str.name', 'NERDTree']
 		\ , Pl#Segment#Truncate()
 		\ , Pl#Segment#Split()
 	\ )
